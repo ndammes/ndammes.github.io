@@ -1,13 +1,124 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Niklas Dammes</title>
-  </head>
-  <body>
-    <!-- Sichtbarer Dokumentinhalt im body -->
-    <p>Sehen Sie sich den Quellcode dieser Seite an.
-      <kbd>(Kontextmenu: Seitenquelltext anzeigen)</kbd></p>
-  </body>
+<html>
+<head>
+  <title>Computer Science Portfolio</title>
+  <style>
+  /* Add some general styling for the website */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style the header and navigation menu */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  header {
+    animation: fadeIn 2s;
+  }
+
+  /* Create the fadeIn animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    color: rgb(74, 73, 73);
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  nav a:hover {
+    background-color: #555;
+  }
+
+  /* Style the main content area */
+  main {
+    margin: 20px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  /* Style the footer */
+  footer {
+    background-color: rgb(107, 59, 59);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Computer Science Portfolio</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <!-- Add your personal information and introduction here -->
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <!-- Add your education information here -->
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <!-- Add your skills here -->
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <!-- Add your experience information here -->
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <!-- Add your project descriptions and photos here -->
+    </section>
+  </main>
+  <footer>
+    <!-- Add your contact information and any additional information here -->
+  </footer>
+</body>
 </html>
+
